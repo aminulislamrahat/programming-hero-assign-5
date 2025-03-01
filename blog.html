@@ -62,32 +62,103 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto flex space-x-6 pb-6 h-screen">
+    <main class="container mx-auto flex space-x-6 pb-6">
       <div class="join join-vertical w-full bg-base-100">
         <div class="join-item border-base-300 border">
           <div class="collapse-title text-xl font-medium">
-            Click to open this one and keep others open
+            <span class="text-bold">Question-1:</span> What are the different
+            ways to select an element in the DOM?
           </div>
           <div class="collapse-title">
-            <p>hello</p>
+            <p>1. document.getElementById("elementId")</p>
+            <p>2. document.getElementsByTagName("h1")</p>
+            <p>3. document.getElementsByClassName("myClass")</p>
+            <p>4. document.querySelector(".myClass")</p>
+            <p>5. document.querySelectorAll(".myClass")</p>
           </div>
         </div>
 
         <div class="join-item border-base-300 border">
           <div class="collapse-title text-xl font-medium">
-            Click to open this one and keep others open
+            <span class="text-bold">Question-2:</span>What is the difference
+            between innerHTML, innerText, and textContent ?
           </div>
           <div class="collapse-title">
-            <p>hello</p>
+            <p>
+              1. innerHtml - it select all html tags includes text and can also
+              set new text
+            </p>
+            <p>2. innerText - it select only the inside text of a html tag</p>
+            <p>
+              3. textContent - it select text inside html and also can select
+              hidden elements and comments
+            </p>
           </div>
         </div>
 
         <div class="join-item border-base-300 border">
           <div class="collapse-title text-xl font-medium">
-            Click to open this one and keep others open
+            <span class="text-bold">Question-3:</span> What is event delegation
+            in the DOM?
           </div>
           <div class="collapse-title">
-            <p>hello</p>
+            <p>
+              If we need to do some function with similar tag multiple times ,
+              we can do it by selecting parent tag. Then we can do multiple
+              action in loop. This behavior is called the event delegation in
+              Dom.
+            </p>
+          </div>
+        </div>
+
+        <div class="join-item border-base-300 border">
+          <div class="collapse-title text-xl font-medium">
+            <span class="text-bold">Question-4:</span> What is event bubbling in
+            the DOM?
+          </div>
+          <div class="collapse-title">
+            <p>
+              If the parent element and child element both have function and if
+              user click an element or do any task which cover both parent and
+              child element then the child function will call first and parent
+              function will call later. By default, event bubbling moves from
+              the innermost element to the outermost.
+            </p>
+          </div>
+        </div>
+
+        <div class="join-item border-base-300 border">
+          <div class="collapse-title text-xl font-medium">
+            <span class="text-bold">Question-5:</span> How do you create, add,
+            and remove elements using JavaScript?
+          </div>
+          <div class="collapse-title">
+            <p>
+              1. first we create a html tag with document.createElement()
+              function and store it in a variable. <br />
+              as like this : <br />
+              let newP = document.createElement("p")
+            </p>
+            <p>
+              2. Then add content in the variable. as like newP.textContent =
+              "Hello, this is a new paragraph!";
+            </p>
+            <p>
+              3. Then need to select the parent tag or id to add the newp.
+              <br />
+              let parent = document.getElementById("container")
+            </p>
+            <p>
+              4. Then call append function to add new element in parent. <br />
+              parent.append(newP)
+              <br />
+              thus we can create and add element via javascript
+            </p>
+            <p>
+              5. By calling remove() function we can remove elements. as like
+              this <br />
+              newP.remove()
+            </p>
           </div>
         </div>
       </div>
