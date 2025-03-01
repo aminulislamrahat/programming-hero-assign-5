@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevBoard</title>
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ['Poppins', 'sans-serif']
+            },
+            colors: {
+              clifford: '#da373d',
+              'primary-color': '#00303C',
+              'secondary-color': '#3752FD'
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="font-poppins bg-[#F4F7FF]">
+    <header class="container mx-auto py-6">
+      <div class="navbar bg-base-100 rounded-2xl p-6">
+        <div class="navbar-start space-x-3">
+          <img src="./assets/logo.png" alt="logo" />
+          <a
+            class="primary-color text-[35.67px] font-light tracking-[1.07px] leading-none"
+            >Dev <span class="font-bold">Board</span></a
+          >
+        </div>
+
+        <div class="navbar-end">
+          <a
+            href="index.html"
+            class="p-3 bg-[#3752FD] rounded-lg text-white cursor-pointer hover:scale-125 ease-in duration-300"
+          >
+            Back to Desk
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto flex space-x-6 pb-6 h-screen">
+      <div class="join join-vertical w-full bg-base-100">
+        <div class="join-item border-base-300 border">
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and keep others open
+          </div>
+          <div class="collapse-title">
+            <p>hello</p>
+          </div>
+        </div>
+
+        <div class="join-item border-base-300 border">
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and keep others open
+          </div>
+          <div class="collapse-title">
+            <p>hello</p>
+          </div>
+        </div>
+
+        <div class="join-item border-base-300 border">
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and keep others open
+          </div>
+          <div class="collapse-title">
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -70,16 +70,249 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto h-screen flex space-x-6">
-      <div class="bg-base-100 rounded-2xl h-4/5 w-3/4 p-6 flex-col">
+    <main class="container mx-auto flex space-x-6 pb-6">
+      <div class="bg-base-100 rounded-2xl w-3/4 p-6 flex-col">
         <div
-          class="h-1/4 border-b-2 border-dashed border-[#3752FD33] w-full"
-        ></div>
-        <div class="h-3/4"></div>
+          class="h-1/6 border-b-2 border-dashed border-[#3752FD33] w-full flex items-center justify-between space-x-4 pb-6"
+        >
+          <div
+            class="bg-[#F4F7FF] w-1/4 rounded-xl h-full flex justify-center items-center space-x-2 p-6"
+          >
+            <div class="p-3 bg-base-100 rounded-full cursor-pointer">
+              <img src="./assets/checkbox.png" />
+            </div>
+            <div class="text-primary-color text-base font-medium flex-col">
+              <span>Task Assigned </span>
+              <div class="text-3xl font-bold">06</div>
+            </div>
+          </div>
+          <a
+            href="blog.html"
+            class="rounded-xl w-2/4 hover:scale-[102%] ease-in duration-300 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] h-full cursor-pointer flex justify-start items-center"
+          >
+            <div class="ml-6 p-6 flex justify-start items-center space-x-4">
+              <img src="./assets/board.png" />
+              <div class="text-white text-2xl font-medium">
+                Discover Something <br />
+                New Today!
+              </div>
+            </div>
+          </a>
+          <div
+            class="bg-[#F4F7FF] p-6 w-1/4 rounded-xl h-full flex justify-center items-center space-x-2"
+          >
+            <div class="p-3 bg-base-100 rounded-full cursor-pointer">
+              <img src="./assets/calender.png" />
+            </div>
+            <div class="text-primary-color text-2xl font-medium flex-col">
+              <span>Wed, </span>
+              <div class="font-bold">Jul 28 2025</div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-6 grid grid-cols-3 gap-9">
+          <div class="bg-[#F4F7FF] rounded-2xl p-6 h-96">
+            <div
+              class="border-b-2 border-dashed border-[#3752FD33] w-full pb-4 flex-col justify-between items-start space-y-4"
+            >
+              <div class="bg-white py-2 px-4 inline-block rounded-lg">
+                <span class="text-primary-color text-base font-normal"
+                  >ShopEase</span
+                >
+              </div>
+              <h1 class="text-primary-color font-poppins text-2xl font-medium">
+                Fix Mobile Button Issue
+              </h1>
+              <div class="bg-white py-2 px-4 rounded-lg">
+                <p class="text-black text-base font-normal">
+                  Debug using Chrome DevTools, check for overlapping elements,
+                  and ensure onClick works properly and ensure onClick works
+                  properly
+                </p>
+              </div>
+            </div>
+            <div class="pt-4 flex justify-between">
+              <div class="flex-col">
+                <p class="text-sm">Deadline</p>
+                <p class="font-bold">21 March 2025</p>
+              </div>
+              <div
+                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                Completed
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#F4F7FF] rounded-2xl p-6 h-96">
+            <div
+              class="border-b-2 border-dashed border-[#3752FD33] w-full pb-4 flex-col justify-between items-start space-y-4"
+            >
+              <div class="bg-white py-2 px-4 inline-block rounded-lg">
+                <span class="text-primary-color text-base font-normal"
+                  >CloudSync</span
+                >
+              </div>
+              <h1 class="text-primary-color font-poppins text-2xl font-medium">
+                Add Dark Mode
+              </h1>
+              <div class="bg-white py-2 px-4 rounded-lg">
+                <p class="text-black text-base font-normal">
+                  Store the user's preference in localStorage, update CSS
+                  variables dynamically, and apply a smooth transition effect.
+                </p>
+              </div>
+            </div>
+            <div class="pt-4 flex justify-between">
+              <div class="flex-col">
+                <p class="text-sm">Deadline</p>
+                <p class="font-bold">21 March 2025</p>
+              </div>
+              <div
+                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                Completed
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#F4F7FF] rounded-2xl p-6 h-96">
+            <div
+              class="border-b-2 border-dashed border-[#3752FD33] w-full pb-4 flex-col justify-between items-start space-y-4"
+            >
+              <div class="bg-white py-2 px-4 inline-block rounded-lg">
+                <span class="text-primary-color text-base font-normal"
+                  >SwiftPay</span
+                >
+              </div>
+              <h1 class="text-primary-color font-poppins text-2xl font-medium">
+                Optimize Home page 
+              </h1>
+              <div class="bg-white py-2 px-4 rounded-lg">
+                <p class="text-black text-base font-normal">
+                  Debug using Chrome DevTools, check for overlapping elements,
+                  and ensure onClick works properly and ensure onClick works
+                  properly
+                </p>
+              </div>
+            </div>
+            <div class="pt-4 flex justify-between">
+              <div class="flex-col">
+                <p class="text-sm">Deadline</p>
+                <p class="font-bold">21 March 2025</p>
+              </div>
+              <div
+                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                Completed
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#F4F7FF] rounded-2xl p-6 h-96">
+            <div
+              class="border-b-2 border-dashed border-[#3752FD33] w-full pb-4 flex-col justify-between items-start space-y-4"
+            >
+              <div class="bg-white py-2 px-4 inline-block rounded-lg">
+                <span class="text-primary-color text-base font-normal"
+                  >Meta</span
+                >
+              </div>
+              <p class="text-primary-color font-poppins text-2xl font-medium">
+                Add new emoji 🤲
+              </p>
+              <div class="bg-white py-2 px-4 rounded-lg">
+                <p class="text-black text-base font-normal">
+                  Debug using Chrome DevTools, check for overlapping elements,
+                  and ensure onClick works properly and ensure onClick works
+                  properly
+                </p>
+              </div>
+            </div>
+            <div class="pt-4 flex justify-between">
+              <div class="flex-col">
+                <p class="text-sm">Deadline</p>
+                <p class="font-bold">21 March 2025</p>
+              </div>
+              <div
+                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                Completed
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#F4F7FF] rounded-2xl p-6 h-96">
+            <div
+              class="border-b-2 border-dashed border-[#3752FD33] w-full pb-4 flex-col justify-between items-start space-y-4"
+            >
+              <div class="bg-white py-2 px-4 inline-block rounded-lg">
+                <span class="text-primary-color text-base font-normal"
+                  >Google LLC</span
+                >
+              </div>
+              <p class="text-primary-color font-poppins text-2xl font-medium">
+                Integrate OpenAI API
+              </p>
+              <div class="bg-white py-2 px-4 rounded-lg">
+                <p class="text-black text-base font-normal">
+                  Debug using Chrome DevTools, check for overlapping elements,
+                  and ensure onClick works properly and ensure onClick works
+                  properly
+                </p>
+              </div>
+            </div>
+            <div class="pt-4 flex justify-between">
+              <div class="flex-col">
+                <p class="text-sm">Deadline</p>
+                <p class="font-bold">21 March 2025</p>
+              </div>
+              <div
+                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                Completed
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#F4F7FF] rounded-2xl p-6 h-96">
+            <div
+              class="border-b-2 border-dashed border-[#3752FD33] w-full pb-4 flex-col justify-between items-start space-y-4"
+            >
+              <div class="bg-white py-2 px-4 inline-block rounded-lg">
+                <span class="text-primary-color text-base font-normal"
+                  >Glassdoar</span
+                >
+              </div>
+              <p class="text-primary-color font-poppins text-2xl font-medium">
+                Improve Job searching
+              </p>
+              <div class="bg-white py-2 px-4 rounded-lg">
+                <p class="text-black text-base font-normal">
+                  Debug using Chrome DevTools, check for overlapping elements,
+                  and ensure onClick works properly and ensure onClick works
+                  properly
+                </p>
+              </div>
+            </div>
+            <div class="pt-4 flex justify-between">
+              <div class="flex-col">
+                <p class="text-sm">Deadline</p>
+                <p class="font-bold">21 March 2025</p>
+              </div>
+              <div
+                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                Completed
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="bg-base-100 rounded-2xl h-4/5 w-1/4 p-6 flex-col">
+      <!-- side taskbar -->
+      <div class="bg-base-100 rounded-2xl w-1/4 p-6 flex-col">
         <div
-          class="h-1/6 flex justify-start border-b-2 border-dashed border-[#3752FD33] w-full flex-col items-center space-y-4"
+          class="flex justify-start pb-6 border-b-2 border-dashed border-[#3752FD33] w-full flex-col items-center space-y-4"
         >
           <div class="flex items-center space-x-4">
             <img src="./assets/activity.png" />
@@ -93,13 +326,13 @@
         </div>
         <div class="h-5/6 py-7 space-y-7">
           <div
-            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg"
+            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg hover:scale-110 ease-in duration-300"
           >
             You have Complete The Task Add Dark Mode at 12:48:15 PM
           </div>
 
           <div
-            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg"
+            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg hover:scale-110 ease-in duration-300"
           >
             You have Complete The Task Add Dark Mode at 12:48:15 PM
           </div>
