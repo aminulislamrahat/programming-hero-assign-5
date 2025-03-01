@@ -54,7 +54,7 @@
 
         <div class="navbar-end space-x-8">
           <div
-            class="p-4 bg-[#F4F7FF] rounded-full flex items-center space-x-3 h-16"
+            class="p-4 bg-[#F4F7FF] rounded-full flex items-center space-x-3 h-16 hover:scale-125 ease-in duration-300"
           >
             <img src="./assets/checkbox.png" />
             <span
@@ -62,14 +62,49 @@
               >23</span
             >
           </div>
-          <div class="p-3 bg-[#F4F7FF] rounded-full">
+          <div
+            class="p-3 bg-[#F4F7FF] rounded-full cursor-pointer hover:scale-125 ease-in duration-300"
+          >
             <img src="./assets/theme-btn.png" />
           </div>
         </div>
       </div>
     </header>
-    <main class="container mx-auto">
-      <div class="bg-base-100 rounded-2xl p-6">ftyhrf</div>
+    <main class="container mx-auto h-screen flex space-x-6">
+      <div class="bg-base-100 rounded-2xl h-4/5 w-3/4 p-6 flex-col">
+        <div
+          class="h-1/4 border-b-2 border-dashed border-[#3752FD33] w-full"
+        ></div>
+        <div class="h-3/4"></div>
+      </div>
+      <div class="bg-base-100 rounded-2xl h-4/5 w-1/4 p-6 flex-col">
+        <div
+          class="h-1/6 flex justify-start border-b-2 border-dashed border-[#3752FD33] w-full flex-col items-center space-y-4"
+        >
+          <div class="flex items-center space-x-4">
+            <img src="./assets/activity.png" />
+            <span class="text-[#00303C] text-xl font-medium">Activity Log</span>
+          </div>
+          <div
+            class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            Clear History
+          </div>
+        </div>
+        <div class="h-5/6 py-7 space-y-7">
+          <div
+            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg"
+          >
+            You have Complete The Task Add Dark Mode at 12:48:15 PM
+          </div>
+
+          <div
+            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg"
+          >
+            You have Complete The Task Add Dark Mode at 12:48:15 PM
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
