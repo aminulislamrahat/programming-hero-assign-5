@@ -58,11 +58,13 @@
           >
             <img src="./assets/checkbox.png" />
             <span
+              id="completed-count"
               class="primary-color text-center text-2xl font-bold tracking-[0.96px] leading-none"
               >23</span
             >
           </div>
           <div
+            id="theme-btn"
             class="p-3 bg-[#F4F7FF] rounded-full cursor-pointer hover:scale-125 ease-in duration-300"
           >
             <img src="./assets/theme-btn.png" />
@@ -83,7 +85,7 @@
             </div>
             <div class="text-primary-color text-base font-medium flex-col">
               <span>Task Assigned </span>
-              <div class="text-3xl font-bold">06</div>
+              <div id="task-assigned" class="text-3xl font-bold">06</div>
             </div>
           </div>
           <a
@@ -105,8 +107,8 @@
               <img src="./assets/calender.png" />
             </div>
             <div class="text-primary-color text-2xl font-medium flex-col">
-              <span>Wed, </span>
-              <div class="font-bold">Jul 28 2025</div>
+              <span id="current-day">Wed, </span>
+              <div id="current-date" class="font-bold">Jul 28 2025</div>
             </div>
           </div>
         </div>
@@ -319,12 +321,13 @@
             <span class="text-[#00303C] text-xl font-medium">Activity Log</span>
           </div>
           <div
+            id="clear-history"
             class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
           >
             Clear History
           </div>
         </div>
-        <div class="h-5/6 py-7 space-y-7">
+        <div id="activity-log" class="h-5/6 py-7 space-y-7">
           <div
             class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg hover:scale-110 ease-in duration-300"
           >
@@ -339,5 +342,7 @@
         </div>
       </div>
     </main>
+    <script src="./functions/main.js"></script>
+    <script src="./functions/date.js"></script>
   </body>
 </html>
