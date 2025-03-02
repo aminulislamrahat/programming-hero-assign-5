@@ -54,7 +54,7 @@
 
         <div class="navbar-end space-x-8">
           <div
-            class="p-4 bg-[#F4F7FF] rounded-full flex items-center space-x-3 h-16 hover:scale-125 ease-in duration-300"
+            class="p-4 bg-[#F4F7FF] rounded-full flex items-center space-x-3 h-16"
           >
             <img src="./assets/checkbox.png" />
             <span
@@ -65,7 +65,7 @@
           </div>
           <div
             id="theme-btn"
-            class="p-3 bg-[#F4F7FF] rounded-full cursor-pointer hover:scale-125 ease-in duration-300"
+            class="p-3 bg-[#F4F7FF] rounded-full cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <img src="./assets/theme-btn.png" />
           </div>
@@ -139,7 +139,7 @@
                 <p class="font-bold">21 March 2025</p>
               </div>
               <div
-                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+                class="completed-btn rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 Completed
               </div>
@@ -171,7 +171,7 @@
                 <p class="font-bold">21 March 2025</p>
               </div>
               <div
-                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+                class="completed-btn rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 Completed
               </div>
@@ -204,7 +204,7 @@
                 <p class="font-bold">21 March 2025</p>
               </div>
               <div
-                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+                class="completed-btn rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 Completed
               </div>
@@ -220,9 +220,9 @@
                   >Meta</span
                 >
               </div>
-              <p class="text-primary-color font-poppins text-2xl font-medium">
+              <h1 class="text-primary-color font-poppins text-2xl font-medium">
                 Add new emoji 🤲
-              </p>
+              </h1>
               <div class="bg-white py-2 px-4 rounded-lg">
                 <p class="text-black text-base font-normal">
                   Debug using Chrome DevTools, check for overlapping elements,
@@ -237,7 +237,7 @@
                 <p class="font-bold">21 March 2025</p>
               </div>
               <div
-                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+                class="completed-btn rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 Completed
               </div>
@@ -253,9 +253,9 @@
                   >Google LLC</span
                 >
               </div>
-              <p class="text-primary-color font-poppins text-2xl font-medium">
+              <h1 class="text-primary-color font-poppins text-2xl font-medium">
                 Integrate OpenAI API
-              </p>
+              </h1>
               <div class="bg-white py-2 px-4 rounded-lg">
                 <p class="text-black text-base font-normal">
                   Debug using Chrome DevTools, check for overlapping elements,
@@ -270,7 +270,7 @@
                 <p class="font-bold">21 March 2025</p>
               </div>
               <div
-                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+                class="completed-btn rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 Completed
               </div>
@@ -286,9 +286,9 @@
                   >Glassdoar</span
                 >
               </div>
-              <p class="text-primary-color font-poppins text-2xl font-medium">
+              <h1 class="text-primary-color font-poppins text-2xl font-medium">
                 Improve Job searching
-              </p>
+              </h1>
               <div class="bg-white py-2 px-4 rounded-lg">
                 <p class="text-black text-base font-normal">
                   Debug using Chrome DevTools, check for overlapping elements,
@@ -303,7 +303,7 @@
                 <p class="font-bold">21 March 2025</p>
               </div>
               <div
-                class="rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
+                class="completed-btn rounded-lg bg-secondary-color py-2.5 px-5 text-[#FFF] text-base font-medium cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 Completed
               </div>
@@ -327,22 +327,11 @@
             Clear History
           </div>
         </div>
-        <div id="activity-log" class="h-5/6 py-7 space-y-7">
-          <div
-            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg hover:scale-110 ease-in duration-300"
-          >
-            You have Complete The Task Add Dark Mode at 12:48:15 PM
-          </div>
-
-          <div
-            class="bg-[#F4F7FF] p-2.5 text-black text-base font-normal rounded-lg hover:scale-110 ease-in duration-300"
-          >
-            You have Complete The Task Add Dark Mode at 12:48:15 PM
-          </div>
-        </div>
+        <div id="activity-log" class="h-5/6 py-7 space-y-7"></div>
       </div>
     </main>
     <script src="./functions/main.js"></script>
     <script src="./functions/date.js"></script>
+    <script src="./functions/task.js"></script>
   </body>
 </html>

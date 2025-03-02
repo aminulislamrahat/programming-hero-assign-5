@@ -5,5 +5,16 @@ function getRandomColor () {
 }
 
 themeButton.addEventListener('click', function () {
+  let img = this.querySelector('img')
+  let rotation = 0
+
+  let interval = setInterval(() => {
+    rotation += 10
+    img.style.transform = `rotate(${rotation}deg)`
+
+    if (rotation >= 360 * 1) {
+      clearInterval(interval)
+    }
+  }, 15)
   document.body.style.backgroundColor = getRandomColor()
 })
